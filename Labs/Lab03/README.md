@@ -27,16 +27,14 @@ Find out the following information about your personal system.  List the command
 ## Part 2 - Exploring the File System
 `ssh` in to your AWS environment.  If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
-1. In AWS, read `/boot/grub/menu.lst`.  According to this file, what options would the grub menu present?  
-2. In AWS, run `sudo parted -l`
+1. Read `/boot/grub/menu.lst`.  According to this file, what options would the grub menu present?  
+2. Using the command `df -h`, determine how much disk space is used and how much space is free?
+3. Run the command `sudo parted -l`
     * What is the primary disk in the `/dev` folder?  
     * What type of partition table is our AWS environment using? 
         * Hint: If it looks unfamilar, use Google to find the common name
-    * How many Gigabytes (GB) of storage do we have?
     * Use `df -T` to find out the file system used by this device.  
     * Hint: What is the top of the Linux directory structure?
-3. Use `df -h`
-    * How much space is used and how much space is free?
 4. [Set file system of partition] Run `parted` on the disk (use the answer you found in Part 1-3)
     * How can you view the options for `parted`?
 5. [Mount partition]
