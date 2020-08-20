@@ -10,34 +10,31 @@ Name: Your name
 Email: Your email
 
 ```
-## Part 1 - Paths
-1. Write the full path to you key file and the command(s) you used to find it. (1 pt)
-**Useful Commands: `pwd, ls, cd`**
-
-## Part 2 - Directories, Files, and Permissions
+## Directories, Files, and Permissions
 For each step, include the command you used to perform the direction or answer the question posed.  If you did something "wrong" make a note of it in your lab.  These are learning experiences - writing them down will help you ask good questions later.
 `ssh` in to your AWS environment.  If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
-#### A. Play with directories & naming (2 pts)
-1. Create a directory called `Lab02`
-2. In `Lab02`, create one directory called `DirA` and one directory called `Directory B`
-3. What happens to the path name of `Directory B`?  Which of the folders uses a better naming convention?
-4. Rename `Directory B` to `DirB`  
+### Part 1: Play with directories & naming (5 pts)
+1. Go to the folder in which you cloned your Git repository for this course.
+2. Create a directory called `Lab02`
+3. In `Lab02`, create one directory called `DirA` and one directory called `Directory B`
+4. What happens to the path name of `Directory B`?  Which of the folders uses a better naming convention?
+5. Rename `Directory B` to `DirB`  
 **Useful commands: `man, mkdir, cd, ls, pwd, mv`**
 
-#### B. Create and edit a file (1 pt)
+### Part 2: Create and edit a file (2 pt)
 1. In `DirA`, create a file called `test.txt`
 2. Put at least three lines of text in `test.txt` using `vim`
 **Useful commands: `touch, vim`**
 
-#### C. Play with hidden files (1 pt)
+### Part 3: Play with hidden files (3 pt)
 1. Make a copy of `test.txt`
 2. Rename it to `.hidden.txt`
 3. Type `ls`.  Can you see both files?  Use flags for `ls` to see your file.  
 **Useful commands: `cp, mv, ls`**
 
-#### D. Play with permissions (2 pts)
+### Part 4: Play with permissions (5 pts)
 1. What are the permission settings for user, group, and other of the files in `DirA`?  What is the current  
 owner and group name?  
 2. Use `sudo` to make a copy of `test.txt` called `su-test.txt`
@@ -47,7 +44,7 @@ owner and group name?
 5. Change the file permissions so you can read and write to the file as your user (not using `sudo`).  
 **Useful Commands: `chmod, chown, chgrp, ls, sudo, cp, cat`**
 
-#### E. Play with hard links, soft links, and inodes (3 pts)
+### Part 5: Play with hard links, soft links, and inodes (11 pts)
 1. By default, what does `ln` followed by a filename do?  
 2. Use `ln` to create a file named `hard.txt` from `test.txt`
 3. Note the inode number of `hard.txt` and `test.txt`.  Are they the same?
@@ -60,6 +57,9 @@ owner and group name?
 10. Delete `sym.txt`
 11. Create a symbolic link from `hard.txt` in `DirB` to `newsym.txt` in `DirA`  
 **Useful Commands: `ln, test, stat, cp, mv, rm`**
+
+### Part 6: Updating the Git Repo (4 pts)
+1. Use `git` commands to `add`, `commit` and `push` the `Lab02` folder and files you created into your repository.  Write the commands you used and any headaches you ran into along the way.
 
 ## Submission
 Upload your file named Lab02-LastName.txt to the Pilot Dropbox.

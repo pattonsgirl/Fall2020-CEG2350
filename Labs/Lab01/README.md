@@ -98,7 +98,7 @@ Create you AWS environment
 While exploring and discovery is an important part of this course, any additional resources you create in AWS have an associated charge.  If resources besides those strictly asked for by this course stay running, you risk running out of funds for this course.  While fixable, this will hinder your ability to complete labs on time.
 
 ### Part 1 Lab Report Questions:
-1. What is the Elastic IP address for your environment? (3 pts)
+1. What is the Elastic IP address for your environment? (2 pts)
 
 ## Part 2 - Connecting to the AWS environment
 **You are now ready to make an SSH connection to your AWS server.**  
@@ -120,11 +120,27 @@ While exploring and discovery is an important part of this course, any additiona
 
 ### Part 2 Lab Report Questions:
 1. How do you exit `vim`? (1 pt)
-2. Write the command you used to `ssh` in to your AWS environment. (4 pts)
+2. Write the full (absolute) path to your key file and the command(s) you used to find it. (1 pt)
+**Useful Commands: `pwd, ls, cd`**
+2. Write the command you used to `ssh` in to your AWS environment. (2 pts)
 `ssh` into your AWS environment for the questions below.  Provide the command(s) used to find your answers.
 3. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System? (1 pt)
 4. Find out what default shell we are using.  Hint, read `/etc/passwd` (1 pt)
     * A guide on what is in [/etc/passwd](http://www.linfo.org/etc_passwd.html)
+
+## Part 3 - Git Fidgetting
+1. Create or sign in to your [github](https://github.com/) account.
+2. Create a new Repository with a name of your choice.  I recommend `Fall2020-CEG2350`. 
+    * Set it to Private (you can change this in the future).  
+    * Check the box to Initialize this repository  with a README
+    * Click Create Repository
+3. In your github repository, select Code (green button).  It should say "Clone with HTTPS".  Copy the URL to your clipboard.
+4. Go to your AWS Educate environment.
+5. Create a folder called `git` and change into the folder.
+6. Use the `git` command to `clone` your repository.
+
+### Part 3 Lab Report Questions:
+1. Write the command you used to clone your repository. (2 pts)
 
 ## Submission
 Upload your file named Lab01-LastName.txt to the Pilot Dropbox.
