@@ -71,9 +71,9 @@ Create an SSH key pair to get to your virtual machine.
 * Click on [Key Pairs](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:sort=keyName) 
 * Click on the `Create Key Pair` blue button.  
   * Choose the name for your key.  I used `ceg2350-aws-vm`  
-  * This creates a public/private key pair, stores the public key in AWS, and downloads the private key to your local machine.
   **MAKE SURE YOU SELECT SSH (pem) as the key type**
-* **Do not lose the downloaded key.**  
+  * This creates a public/private key pair, stores the public key in AWS, and downloads the private key to your local machine.
+  * **Do not lose the downloaded key.**  
   * Back it up to a USB drive or your Office365 account.  Once you go through the steps below, this key will be the only way to log in to your AWS environment.  If the key is lost, you will need to delete the environment and start from scratch.
 
 Create your AWS environment - **STOP HERE UNTIL THIS MESSAGE IS DELETED**  
@@ -121,13 +121,12 @@ While exploring and discovery is an important part of this course, any additiona
 
 ### Part 2 Lab Report Questions:
 1. How do you exit `vim`? (1 pt)
-2. Write the full (absolute) path to your key file and the command(s) you used to find it. (1 pt)
+2. Write the full (absolute) path to your local key file and the command(s) you used to find it. (1 pt)
 **Useful Commands: `pwd, ls, cd`**
-2. Write the command you used to `ssh` in to your AWS environment. (2 pts)
+2. Write the command you used to `ssh` in to your AWS environment. (3 pts)
 `ssh` into your AWS environment for the questions below.  Provide the command(s) used to find your answers.
-3. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System? (1 pt)
-4. Find out what default shell we are using.  Hint, read `/etc/passwd` (1 pt)
-    * A guide on what is in [/etc/passwd](http://www.linfo.org/etc_passwd.html)
+3. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System in AWS? (1 pt)
+**Useful Commands: `cat, cd`**
 
 ## Part 3 - Git Fidgetting
 1. Create or sign in to your [github](https://github.com/) account.
