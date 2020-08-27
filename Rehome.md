@@ -55,3 +55,5 @@ Difference between ifconfig and result of curl ipinfo.io
 
 Sign a git commit
 Encrypt and decrypt a file
+
+(https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=CEG-2350&templateURL=https:%2F%2Fwsu-cecs-cf-templates.s3.us-east-2.amazonaws.com%2Fceg2350.yml)  
