@@ -76,10 +76,9 @@ Create an SSH key pair to get to your virtual machine.
   * **Do not lose the downloaded key.**  
   * Back it up to a USB drive or your Office365 account.  Once you go through the steps below, this key will be the only way to log in to your AWS environment.  If the key is lost, you will need to delete the environment and start from scratch.
 
-Create your AWS environment - **STOP HERE UNTIL THIS MESSAGE IS DELETED**  
-**We are making some quick fixes to the AWS environment.**
+Create your AWS environment
 
-* Once you have created your SSH key, [click here to provision your virtual environment] - Link temporarily removed by instructor
+* Once you have created your SSH key, [click here to provision your virtual environment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=CEG-2350&templateURL=https:%2F%2Fwsu-cecs-cf-templates.s3.us-east-2.amazonaws.com%2Fceg2350.yml)
   This link autofills many fields for creating our virtual machine.
   * On the first menu, click Next
   * On the second menu, under Parameters, type the name of the key pair you made in the  
