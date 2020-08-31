@@ -39,9 +39,9 @@ You should have an email from AWS Educate to guide you through account creation.
 Note: The email was sent to your wright.edu email account
 
 *Registration form warnings*:
-* Make sure you set a graduation date IN THE FUTURE
+* Make sure you set a **graduation date** IN THE FUTURE
   * For Fall 2020, I recommend using 12/30/2025
-* The last field on the right is a Promotional Code field.  Your autofill may mistake it for a  
+* The last field on the right is a **Promotional Code** field.  Your autofill may mistake it for a  
   zip code and unhelpfully fill it out for you.  Make sure the Promotional Code field is *blank* (empty)
 
 Once you have filled in the registration information and verified your email address, you will get an account  
