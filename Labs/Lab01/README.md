@@ -40,7 +40,7 @@ for you to use to complete the tasks given.
 * You should have a terminal already installed.  Hunt it down ;)
 
 ## Lab Procedure
-Perform the following tasks.  Document your progress in a plain text file named `Lab01-LastName.txt`  
+Perform the following tasks.  Document your answers in a plain text file named `Lab01-LastName.txt`  
 where LastName is your last name
 
 At the top of the file please enter your personal details as follows:
