@@ -63,6 +63,7 @@ been using to log on to your AWS Educate system.  Use an *absolute* path to your
     * [Resource](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
 * Sorts the contents of the file stored in the argument using the `sort` command.
 * Outputs the sorted data to a file called `sorted.txt` (1 pt)
+* Hint: To run your script you may need / want to play with the file permissions.
 2. Copy the contents of your script into your lab notes.
 
 ## Part 4: Intro to Regular Expressions (2 pts)
