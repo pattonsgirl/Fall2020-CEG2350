@@ -41,7 +41,7 @@ owner and group name?
 3. What are the permission settings for user, group, and other for `su-test.txt`?  What is the current  
 owner and group name?
 4. Can your user write to `su-test.txt`?  If not, how can you write to the file without changing the permissions? 
-5. Change the file permissions so you can read and write to the file as your user (not using `sudo`).  
+5. Change the file permissions so you can read and write to the file as your user (as in read / write without using `sudo`).  
 **Useful Commands: `chmod, chown, chgrp, ls, sudo, cp, cat`**
 
 ### Part 5: Play with hard links, soft links, and inodes (11 pts)
