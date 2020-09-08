@@ -25,7 +25,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ### Part 2: Create and edit a file (2 pt)
 1. In `DirA`, create a file called `test.txt`
-2. Put at least three lines of text in `test.txt` using `vim`
+2. Put at least three lines of text in `test.txt` using `vim`  
 **Useful commands: `touch, vim`**
 
 ### Part 3: Play with hidden files (3 pt)
@@ -62,7 +62,7 @@ owner and group name?
 1. Use `git` commands to `add`, `commit` and `push` the `Lab02` folder and files you created into your repository.  Write the commands you used and any headaches you ran into along the way.
 2. In the `Lab02` folder, create a file called `README.md`.
 3. Paste your lab notes into the `README.md` file.
-4. Use `git` commands to `add`, `commit` and `push` the `Lab02` the `README.md` file.  Go to your github repository for this course in your browser, then go to the `Lab02` folder (still in the browser).  What do you see?
+4. Use `git` commands to `add`, `commit` and `push` the `Lab02` `README.md` file.  Go to your github repository for this course in your browser, then go to the `Lab02` folder (still in the browser).  What do you see?
 
 ## Submission
 Upload your file named Lab02-LastName.txt to the Pilot Dropbox.
