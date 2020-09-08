@@ -11,7 +11,7 @@ Email: Your email
 
 ```
 ## Directories, Files, and Permissions
-For each step, include the command you used to perform the direction or answer the question posed.  If you did something "wrong" make a note of it in your lab.  These are learning experiences - writing them down will help you ask good questions later.
+For each step, include the command you used to perform the direction or answer the question posed.  If you did something "wrong" make a note of it in your lab.  These are learning experiences - writing them down will help you ask good questions later.  
 `ssh` in to your AWS environment.  If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
