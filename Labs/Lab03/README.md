@@ -69,7 +69,7 @@ been using to log on to your AWS Educate system.  Use an *absolute* path to your
 ## Part 4: Intro to Regular Expressions (2 pts)
 1. Add an if statement to your script that checks if the file in the argument ends in `.txt` (2 pts)
     * If the file does **not** end in `.txt` your script should exit with an error message: `File format not allowed`
-    * [This guide](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/) should help you out.
+    * [Resource](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/)
 2. Copy the contents of your revised script into your lab notes.
 
 ## Part 5: Updating the Git Repo (2 pts)
