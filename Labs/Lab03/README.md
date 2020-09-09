@@ -54,7 +54,7 @@ been using to log on to your AWS Educate system.  Use an *absolute* path to your
 2.3
 ```
 5. Direct the file `input.txt` into the sort command.  Write the command you used and the result of sucessfully running the command. (1 pt)
-6. Direct the file `input.txt` into the sort command and direct the output to `output.txt`.  Write the command you used and the result of sucessfully running the command. (1 pt)
+6. Direct the file `input.txt` into the sort command and direct the output to `output.txt`.  Write the command you used and the result of sucessfully running the command. (1 pt)  
 **Useful commands: `man, vim, sort, <, >, >>`**
 
 ## Part 3: Intro to Scripts (2 pts)
