@@ -56,21 +56,28 @@ been using to log on to your AWS Educate system.  Use an *absolute* path to your
 5. Direct the file `input.txt` into the sort command.  Write the command you used and the result of sucessfully running the command. (1 pt)
 6. Direct the file `input.txt` into the sort command and direct the output to `output.txt`.  Write the command you used and the result of sucessfully running the command. (1 pt)  
 **Useful commands: `man, vim, sort, <, >, >>`**
+**Resources:**
+* [An Intro to Linux IO Redirection](https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-i-o-redirection)
+* [IO Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
 
 ## Part 3: Intro to Scripts (2 pts)
 1. Create a bash script called `sorting-party.sh`.  The script should have the following features:
 * Takes an argument of a filename. (1 pt)
-    * [Resource](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
 * Sorts the contents of the file stored in the argument using the `sort` command.
 * Outputs the sorted data to a file called `sorted.txt` (1 pt)
 * Hint: To run your script you may need / want to play with the file permissions.
-2. Copy the contents of your script into your lab notes.
+2. Copy the contents of your script into your lab notes.  
+**Resources:**
+* [Command Line Arguments in Shell Script](https://tecadmin.net/tutorial/bash-scripting/bash-command-arguments/)
+* [Use Command Line Arguents in Bash Script](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
+* [Positional Parameters](http://linuxcommand.org/lc3_wss0120.php)
 
 ## Part 4: Intro to Regular Expressions (2 pts)
 1. Add an if statement to your script that checks if the file in the argument ends in `.txt` (2 pts)
     * If the file does **not** end in `.txt` your script should exit with an error message: `File format not allowed`
-    * [Resource](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/)
-2. Copy the contents of your revised script into your lab notes.
+2. Copy the contents of your revised script into your lab notes.  
+**Resources**
+* [How to Use Regex in Bash](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/)
 
 ## Part 5: Updating the Git Repo (2 pts)
 1. In the `Lab03` folder, create a file called `README.md`.
