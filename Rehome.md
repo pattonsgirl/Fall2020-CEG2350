@@ -31,6 +31,9 @@ Exercise from https://missing.csail.mit.edu/2020/shell-tools/
 
 Debugging shell scripts w/ error messages or https://www.shellcheck.net/#
 
+systems administration:
+Create new user on system, create key pair for that user.
+
 vim tutor
 add customization to .vimrc (plugin, coloring, something)
 regex tutorial - https://regexone.com/
