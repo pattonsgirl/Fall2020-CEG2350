@@ -40,7 +40,7 @@ for you to use to complete the tasks given.
 * You should have a terminal already installed.  Hunt it down ;)
 
 ## Lab Procedure
-Perform the following tasks.  Document your progress in a plain text file named `Lab01-LastName.txt`  
+Perform the following tasks.  Document your answers in a plain text file named `Lab01-LastName.txt`  
 where LastName is your last name
 
 At the top of the file please enter your personal details as follows:
@@ -138,9 +138,9 @@ While exploring and discovery is an important part of this course, any additiona
 1. How do you exit `vim`? (1 pt)
 2. Write the full (absolute) path to your local key file and the command(s) you used to find it. (1 pt)
 **Useful Commands: `pwd, ls, cd`**
-2. Write the command you used to `ssh` in to your AWS environment. (3 pts)
+3. Write the command you used to `ssh` in to your AWS environment. (3 pts)  
 `ssh` into your AWS environment for the questions below.  Provide the command(s) used to find your answers.
-3. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System in AWS? (1 pt)
+4. Read `/etc/*-release`.  What is the PRETTY_NAME of the Operating System in AWS? (1 pt)
 **Useful Commands: `cat, cd`**
 
 ## Part 3 - Git Fidgetting

@@ -1,4 +1,4 @@
-# Lab 3 - NOT FINALIZED
+# Lab 03
 
 ## Lab Procedure
 Document your progress in a plain text file named `Lab03-LastName.txt`  
@@ -11,34 +11,73 @@ Email: Your email
 
 ```
 
-For each step, include the command you used to perform the direction or answer the question posed.  If you did something "wrong" make a note of it in your lab.  These are learning experiences - writing them down will help you ask good questions later.
+Where questions are presented, answer them in your lab notes.  For each step, include the command you  
+used to perform the direction or answer the question posed.  If you did something "wrong" make a note  
+of it in your lab.  These are learning experiences.
 
-`ssh` in to your AWS environment.  If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
+If you've lost or forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
-## Part 1 - Self Discovery
-Find out the following information about your personal system.  List the command(s) or website(s) you used to collect this information.
-1. BIOS version / mode.
-2. Installed memory size.
-3. Virtual memory size.  Does you system have a pagefile or a swapfile?  What does this mean?
-4. File system on installed disk(s).
-5. Number of partitions.  Which partition is your primary partition?
+## Part 1: Aliases (2 pts)
+1. On your **local** machine, create an `alias` called `aws-ssh` that contains the command and parameters you have  
+been using to log on to your AWS Educate system.  Use an *absolute* path to your key file in your command.  Run your new `alias` to test it.  **Why use an absolute path instead of a relative path?** (1 pt)
+* You can do this in whatever local terminal you have.
+2. Make your `alias` permanent for your user by editing the correct file for your terminal.  **Write the alias in your lab notes** (1 pt)
+* WSL2 / Linux / Mac Users: Edit `.bashrc` in the user's home directory.
+* MobaXTerm + CygUtils Users: Create / edit `.bash_profile` to store your aliases
 
-## Part 2 - Exploring the File System
-`ssh` in to your AWS environment.  If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
-See [Remaking your AWS Educate environment](../../..) for instructions.
-1. Read `/boot/grub/menu.lst`.  According to this file, what options would the grub menu present?  
-2. Using the command `df -h`, determine how much disk space is used and how much space is free?
-3. Run the command `sudo parted -l`
-    * What is the primary disk in the `/dev` folder?  
-    * What type of partition table is our AWS environment using? 
-        * Hint: If it looks unfamilar, use Google to find the common name
-    * Use `df -T` to find out the file system used by this device.  
-    * Hint: What is the top of the Linux directory structure?
-4. [Set file system of partition] Run `parted` on the disk (use the answer you found in Part 1-3)
-    * How can you view the options for `parted`?
-5. [Mount partition]
-6. [Add partition to /etc/fstab]
+## Part 2: IO Redirection (2 pts)
+1. Go to your AWS environment.
+2. Go to the folder in which you cloned your Git repository for this course.
+3. Create a folder called `Lab03`
+4. Create a file called `input.txt` with the following contents:
+```
+9.1
+43.7
+2.2
+62.1
+2.1
+9.3
+43.5
+4.6
+44.6
+4.7
+42.7
+47.4
+46.6
+4.5
+55.6
+4
+9.2
+66.6
+2
+2.3
+```
+5. Direct the file `input.txt` into the sort command.  Write the command you used and the result of sucessfully running the command. (1 pt)
+6. Direct the file `input.txt` into the sort command and direct the output to `output.txt`.  Write the command you used and the result of sucessfully running the command. (1 pt)  
+**Useful commands: `man, vim, sort, <, >, >>`**
+
+## Part 3: Intro to Scripts (2 pts)
+1. Create a bash script called `sorting-party.sh`.  The script should have the following features:
+* Takes an argument of a filename. (1 pt)
+    * [Resource](https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script)
+* Sorts the contents of the file stored in the argument using the `sort` command.
+* Outputs the sorted data to a file called `sorted.txt` (1 pt)
+* Hint: To run your script you may need / want to play with the file permissions.
+2. Copy the contents of your script into your lab notes.
+
+## Part 4: Intro to Regular Expressions (2 pts)
+1. Add an if statement to your script that checks if the file in the argument ends in `.txt` (2 pts)
+    * If the file does **not** end in `.txt` your script should exit with an error message: `File format not allowed`
+    * [Resource](https://www.poftut.com/how-to-use-regular-expression-regex-in-bash-linux/)
+2. Copy the contents of your revised script into your lab notes.
+
+## Part 5: Updating the Git Repo (2 pts)
+1. In the `Lab03` folder, create a file called `README.md`.
+2. In `README.md` create a usage guide for your script.  Put the contents in your lab notes as well. (1 pts)
+    * It is recommended (not required) to use markdown to make your `README.md` file look organized.
+    * [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+3. Use `git` commands to `add`, `commit` and `push` the `Lab03` folder to GitHub.  Write the command you used in your lab notes. (1 pts)
 
 ## Submission
 Upload your file named `Lab03-LastName.txt` to the Pilot Dropbox.

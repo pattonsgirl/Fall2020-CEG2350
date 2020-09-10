@@ -11,7 +11,7 @@ Email: Your email
 
 ```
 ## Directories, Files, and Permissions
-For each step, include the command you used to perform the direction or answer the question posed.  If you did something "wrong" make a note of it in your lab.  These are learning experiences - writing them down will help you ask good questions later.
+**For each step, include the command you used to perform the direction or answer the question posed.**  If you did something "wrong" make a note of it in your lab.  These are learning experiences - writing them down will help you ask good questions later.  
 `ssh` in to your AWS environment.  If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
@@ -25,7 +25,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ### Part 2: Create and edit a file (2 pt)
 1. In `DirA`, create a file called `test.txt`
-2. Put at least three lines of text in `test.txt` using `vim`
+2. Put at least three lines of text in `test.txt` using `vim`  
 **Useful commands: `touch, vim`**
 
 ### Part 3: Play with hidden files (3 pt)
@@ -41,7 +41,7 @@ owner and group name?
 3. What are the permission settings for user, group, and other for `su-test.txt`?  What is the current  
 owner and group name?
 4. Can your user write to `su-test.txt`?  If not, how can you write to the file without changing the permissions? 
-5. Change the file permissions so you can read and write to the file as your user (not using `sudo`).  
+5. Change the file permissions so you can read and write to the file as your user (as in read / write without using `sudo`).  
 **Useful Commands: `chmod, chown, chgrp, ls, sudo, cp, cat`**
 
 ### Part 5: Play with hard links, soft links, and inodes (11 pts)
@@ -62,7 +62,7 @@ owner and group name?
 1. Use `git` commands to `add`, `commit` and `push` the `Lab02` folder and files you created into your repository.  Write the commands you used and any headaches you ran into along the way.
 2. In the `Lab02` folder, create a file called `README.md`.
 3. Paste your lab notes into the `README.md` file.
-4. Use `git` commands to `add`, `commit` and `push` the `Lab02` the `README.md` file.  Go to your github repository for this course in your browser, then go to the `Lab02` folder (still in the browser).  What do you see?
+4. Use `git` commands to `add`, `commit` and `push` the `Lab02` `README.md` file.  Go to your github repository for this course in your browser, then go to the `Lab02` folder (still in the browser).  What do you see?
 
 ## Submission
 Upload your file named Lab02-LastName.txt to the Pilot Dropbox.
