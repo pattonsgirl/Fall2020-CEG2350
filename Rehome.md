@@ -32,7 +32,7 @@ Exercise from https://missing.csail.mit.edu/2020/shell-tools/
 Debugging shell scripts w/ error messages or https://www.shellcheck.net/#
 
 systems administration:
-Create new user on system, create key pair for that user.
+Create new user on system, create key pair for that user.  Use `sftp` to get the private key, log in as the new user just using ssh (no -i flag)
 
 vim tutor
 add customization to .vimrc (plugin, coloring, something)
@@ -40,9 +40,11 @@ regex tutorial - https://regexone.com/
 Find stuff using /usr/share/dict/words
 Different outputs in sed, pros and cons (in-place vs copy) - sed s/REGEX/SUBSTITUTION/ input.txt > input.txt why?
 
+Download file with `wget`.  Convert to different file type.  Use `basename` to keep name but change extension
+
 Late git:
 Complete assigned sections of https://learngitbranching.js.org/
-Fork and find a mistake / update and create a pull request to course repo
+Fork and find a mistake / update / add another resource and create a pull request to course repo
 
 Makefiles:
 add git hooks so code must compile before a commit
