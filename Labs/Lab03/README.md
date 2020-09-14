@@ -21,7 +21,8 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 been using to log on to your AWS Educate system.  Use an *absolute* path to your key file in your command.  Run your new `alias` to test it.  **Why use an absolute path instead of a relative path?** (1 pt)
 * You can do this in whatever local terminal you have.
 2. Make your `alias` permanent for your user by editing the correct file for your terminal.  **Write the alias in your lab notes** (1 pt)
-* WSL2 / Linux / Mac Users: Edit `.bashrc` in the user's home directory.
+* WSL2 / Linux Users: Edit `.bashrc` in the user's home directory.
+* Mac Users: Edit `.bash_profile` in your user's home directory.
 * MobaXTerm + CygUtils Users: Create / edit `.bash_profile` to store your aliases
 
 ## Part 2: IO Redirection (2 pts)

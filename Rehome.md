@@ -40,8 +40,6 @@ regex tutorial - https://regexone.com/
 Find stuff using /usr/share/dict/words
 Different outputs in sed, pros and cons (in-place vs copy) - sed s/REGEX/SUBSTITUTION/ input.txt > input.txt why?
 
-Download file with `wget`.  Convert to different file type.  Use `basename` to keep name but change extension
-
 Late git:
 Complete assigned sections of https://learngitbranching.js.org/
 Fork and find a mistake / update / add another resource and create a pull request to course repo
@@ -59,6 +57,8 @@ A common issue is that a port you want to listen on is already taken by another 
 Networking:
 Find an online data set like this one, this one. or maybe one from here. Fetch it using curl and extract out just two columns of numerical data. If you’re fetching HTML data, pup might be helpful. For JSON data, try jq. Find the min and max of one column in a single command, and the sum of the difference between the two columns in another.
 Difference between ifconfig and result of curl ipinfo.io
+
+Download file with `wget`.  Convert to different file type.  Use `basename` to keep name but change extension
 
 Sign a git commit
 Encrypt and decrypt a file
