@@ -26,7 +26,9 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
     * concatenate, for example, should be a match
 * How many words in the `words` file have a non-alphanumeric character in the word? (1 pt)
     * ' , e with a hat are examples of non-alphanumeric characters
-* How many words in the `words` file have at least one letter `m` in the word? (1 pt)
+* How many words in the `words` file have at least one letter `m` in the word? (1 pt)  
+**Resources**
+* [RegEx Cheatsheet](http://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf)
 
 ## Part 2: Scripting, Paths, and Arguments, Oh My! (4 pts)
 1. Create a `Lab04` folder in your git repository in your AWS Educate environment.  Create a folder called `scripts`.  Inside that folder, create two scripts, one named `marco` and one named `polo`.  
