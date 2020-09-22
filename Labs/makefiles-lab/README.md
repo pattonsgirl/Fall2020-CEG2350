@@ -21,18 +21,6 @@ Unless explicity stated, assume you should perform the lab assignment in your AW
 If you've lost or forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
-## Part 1 - Git Fidgetting
-1. Create or sign in to your [github](https://github.com/) account.
-2. Create a new Repository with a name of your choice.  I recommend `CEG2350`. 
-    * Set it to Private (you can change this in the future).  
-    * Check the box to Initialize this repository  with a README
-    * Click Create Repository
-
-3. In your github repository, select Clone or Download (green button).  It should say "Clone with HTTPS".  Copy the URL to your clipboard
-4. Go to your AWS Educate environment.
-5. Create a folder called `git` and change into the folder.  Write the command you used.
-6. Use the `git` command to `clone` your repository.  Write the command you used.
-
 ## Part 2 - Simple Makefile
 **Sample Makefiles for Java and C are posted in this repo.  Click to view**
 1. Copy your `Lab04` folder to `git/CEG2350/Lab05`.  Write the command(s) you used.

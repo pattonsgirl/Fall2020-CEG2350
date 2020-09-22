@@ -41,22 +41,6 @@ much recommend reading through the rest of this section before performing it.
     * Use the job ID to bring it back to the foreground, and send a signal to terminate it with `Ctrl+C`
 
 ## Part 2 - Programs
-1. On your **local** machine, create an `alias` called `aws-ssh` that contains the command and parameters you have  
-been using to log on to your AWS Educate system.  Use an *absolute* path to your key file in your command.  Why use  
-an absolute path instead of relative?
-    * Note: you can do this in WSL-Ubuntu, Mac, or the MobaXTerm Local Terminal
-    * Powershell users: `set-alias` doesn't work the same way for you (yay!).  To save you some headache, I'll tell  
-    you that you need to create a `function`, *not* an `alias`
-
-2. Run your new `alias` to test it.  Exit out of your AWS terminal.  Make your `alias` permanent for your user in the `.bashrc` file.
-    * MobaXTerm users (no WSL-Ubuntu): you need to create a file called `.bash_profile` to store your aliases
-    * Powershell users: You can *try* [this guide](https://www.repusic.com/powershell/2018/04/09/Powershell_permant_profile.html) to save your function.  
-        * If you get this message: `... cannot be loaded because  running scripts is disabled on this system`, mark  
-        the steps you followed.  If you want the scary red text to go away, edit the `$profile` and delete the text  
-        you entered.
-
-**Log back in to your AWS Edu environment for the next steps:**
-
 3. List the version and location of `python`, `java`, and `gcc`.  Helpful commands: `whereis, which, man`
     * How can I use python 3?
 
