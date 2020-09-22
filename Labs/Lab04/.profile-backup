@@ -25,7 +25,3 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-
-#Custom path additions
-export PATH=$PATH:/home/kduncan/scripts
-export PATH="$PATH:/home/ubuntu/scripts"
