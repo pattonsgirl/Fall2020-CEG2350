@@ -37,6 +37,12 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 * [Compile a C/C++ Program](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
 ## Part 3: Make that Makefile
+1. Create a file called `Makefile`.  Write the command you used.
+2. Write contents in `Makefile` so that in the shell the following commands perform the following actions:
+    * `make` will compile the program and create an executable version
+    * `make run` will compile and execute the program
+    * `make clean` will delete the compiled program
+3. Copy the contents of your `Makefile` into your lab notes.
 
 ## Part 4: The Git Part (1 pt)
 1. Create a `README.md` in your `Lab05` folder.
