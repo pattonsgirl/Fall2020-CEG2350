@@ -30,6 +30,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 **Useful commands: `whereis, which, man`**
 3. Compile your code using the corresponding compiler.  Write the command you used to compile your source code.
 4. Run your program.  Write the command you used to run your compiled program.  
+
 **Resources**
 * [Compile a Java Program](https://beginnersbook.com/2013/05/first-java-program/)
 * [Compile a C/C++ Program](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
