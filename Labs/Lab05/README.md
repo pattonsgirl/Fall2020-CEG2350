@@ -42,7 +42,3 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 2. Use `git` commands to `add`, `commit` and `push` the `Lab05` folder to GitHub.  Write the commands you used in your lab notes.
 
 ## Extra Credit (1 pt): 
-
-
-### Credits:  
-Exercise based on https://missing.csail.mit.edu/2020/shell-tools/
