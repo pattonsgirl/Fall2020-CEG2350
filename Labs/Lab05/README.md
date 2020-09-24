@@ -17,7 +17,8 @@ If you've lost or forgotten your key, you'll need to provision a new stack in AW
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Part 1: Write Source Code
-1. You may choose *Java* or *C* or *C++* to do the following:
+1. Create a `Lab05` folder in your github repository in your AWS account. 
+2. You may choose *Java* or *C* or *C++* to do the following:
 * Write source code that prompts the user to enter text / a string from standard input, then outputs the same string back to standard out.  Include your code in your lab write up.
     * I recommend naming the source code file `echo` with the appropriate language extension (ie. `echo.java`, `echo.c`, `echo.cpp`).
     * Code integrity does not matter - you may work together or use things found on the internet or textbooks.
