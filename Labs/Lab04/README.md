@@ -47,6 +47,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Extra Credit (1 pt): 
 For the `marco` script, when `marco` is run it should check if a path has already been "saved" and ask if the user would like to update the path.  Copy your extra credit `marco` script into your lab notes.
+* [Hint](https://www.cyberciti.biz/faq/linux-unix-script-check-if-file-empty-or-not/)
 
 ### Credits:  
 Exercise based on https://missing.csail.mit.edu/2020/shell-tools/
