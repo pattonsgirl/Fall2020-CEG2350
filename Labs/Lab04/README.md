@@ -37,7 +37,9 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 4. Add the folder these scripts are located in to your `PATH`.  (2 pts)
 * First use the `export` command in you terminal to test you have properly added to the `PATH`. Write this command in your lab notes. 
 * Test that `marco` and `polo` can now be run in any directory.  
-* Add your working `export` command to your home directory's `.profile`.
+* Add your working `export` command to your home directory's `.profile`.  
+**Resources**
+* [Using Command Output](https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-bash-assign-variable-command-output/)
 
 ## Part 3: The Git Part (1 pt)
 1. Create a `README.md` in your `Lab04` folder that provides a usage guide for `marco` and `polo`.  Copy the contents of you `README.md` into your lab notes.
