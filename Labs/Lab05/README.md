@@ -44,8 +44,15 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
     * `make clean` will delete the compiled program
 3. Copy the contents of your `Makefile` into your lab notes.
 
+**Resources**
+* [Makefile in C](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html#C)
+* [Makefile in Java](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html#java)
+
 ## Part 4: The Git Part (1 pt)
-1. Create a `README.md` in your `Lab05` folder.
+1. Create a `README.md` in your `Lab05` folder that details how to run your program manually & how to run your program with the `make` command.  Paste the contents of your `README.md` into your lab write up.
 2. Use `git` commands to `add`, `commit` and `push` the `Lab05` folder to GitHub.  Write the commands you used in your lab notes.
 
 ## Extra Credit (1 pt): 
+* Create an additional source code file that the original uses as a dependency.  Perhaps you main code file calls on a function that is detailed in the other file (function can do a simple action, like print a message).
+    * You may use an old / existing multifile project (again, just need to require compilation)
+* Modify your `Makefile` to compile the original file & its new dependency.  Note that your `Makefile` should have an updated version of the pre requisites to compile the program.
