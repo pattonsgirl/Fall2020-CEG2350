@@ -33,8 +33,6 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 4. Run your program.  Write the command you used to run your compiled program.  
 
 **Resources**
-* [Sample Java Makefile in this folder](./Makefile-Java)
-* [Sample C/C++ Makefile in the folder](./Makefile-C)
 * [Compile a Java Program](https://beginnersbook.com/2013/05/first-java-program/)
 * [Compile a C/C++ Program](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
@@ -47,6 +45,8 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 3. Copy the contents of your `Makefile` into your lab notes.
 
 **Resources**
+* [Sample Java Makefile in this folder](./Makefile-Java)
+* [Sample C/C++ Makefile in the folder](./Makefile-C)
 * [Makefile in C](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html#C)
 * [Makefile in Java](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html#java)
 
