@@ -33,6 +33,8 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 4. Run your program.  Write the command you used to run your compiled program.  
 
 **Resources**
+* [Sample Java Makefile in this folder](./Makefile-Java)
+* [Sample C/C++ Makefile in the folder](./Makefile-C)
 * [Compile a Java Program](https://beginnersbook.com/2013/05/first-java-program/)
 * [Compile a C/C++ Program](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
