@@ -40,31 +40,5 @@ much recommend reading through the rest of this section before performing it.
     * Run the command again, but this time set it to run in the background.
     * Use the job ID to bring it back to the foreground, and send a signal to terminate it with `Ctrl+C`
 
-## Part 2 - Programs
-3. List the version and location of `python`, `java`, and `gcc`.  Helpful commands: `whereis, which, man`
-    * How can I use python 3?
-
-4. Create a folder named `Lab04`.  Go into the folder.  Create a file named `input.txt`.  Put the following content in it:
-    ```
-    Hello!
-    ```
-    * You may choose *Java* or *C* or *C++* to do the following.  
-        * Python is not a compiled language, and will **not** count for credit.
-    * Create a file called `helloworld` with the appropriate extension for your language of choice (`.java` for Java  
-    , `.c` for C, `.cpp` for C++).  Write the command(s) you used to create and edit your code.
-    * Write a program that echos text inputted by the user.  Code integrity does not matter - you may work together  
-    or use things found on the internet or textbooks.  Include your code in your lab write up.
-        * Note: Assume no spaces, just a single word / string
-    * Compile your code.  Write the command you used to compile it.
-    * Run your program.  Write the command you used to run it.
-    * Run your program by *redirecting* the input to be from your `input.txt` file.  Write the command you used.
-    * Run your program by *redirecting* the input to be from your `input.txt` file **and** redirecting the output to  
-    a file called `output.txt`.  Write the command you used.
-    * Run your program by *redirecting* the input to be from your `input.txt` file **and** writing to both standard  
-    output **and** redirecting the output to a file called `output.txt`.  Write the command you used.
-    * Modify the contents of `input.txt` to only have `Cool!`.  
-    * Run your program by *redirecting* the input to be from your `input.txt` file **and** *appending* the output to  
-    `output.txt`.  Write the command you used.
-
 ## Submission
 Upload your file named `Lab04-LastName.txt` to the Pilot Dropbox.
