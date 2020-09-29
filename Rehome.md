@@ -1,6 +1,3 @@
-## Part 2 - Log in to your AWS Educate environment:  
-
-
 1. Run `sudo apt update` - in your lab notes, explain what update does
 2. Run `sudo apt upgrade` - in your lab notes, explain what upgrade does
 3. Run `sudo apt autoremove` - in your lab notes, explain what autoremove does  
@@ -21,13 +18,24 @@
     * Let's assume the above went well.  Write the command to mount the drive to `/mnt/Lab03`
         * If we wanted to make this permanent, what file would we need to edit?
 
+`ssh` in to your AWS environment.  If you've forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
+See [Remaking your AWS Educate environment](../../..) for instructions.
+1. Read `/boot/grub/menu.lst`.  According to this file, what options would the grub menu present?  
+2. Using the command `df -h`, determine how much disk space is used and how much space is free?
+3. Run the command `sudo parted -l`
+    * What is the primary disk in the `/dev` folder?  
+    * What type of partition table is our AWS environment using? 
+        * Hint: If it looks unfamilar, use Google to find the common name
+    * Use `df -T` to find out the file system used by this device.  
+    * Hint: What is the top of the Linux directory structure?
+4. [Set file system of partition] Run `parted` on the disk (use the answer you found in Part 1-3)
+    * How can you view the options for `parted`?
+5. [Mount partition]
+6. [Add partition to /etc/fstab]
+
 Scripting: ideas:
 Find out what shell we are using in AWS.  Hint, read `/etc/passwd` (1 pt)
     * A guide on what is in [/etc/passwd](http://www.linfo.org/etc_passwd.html)
-Run a file and check the permission bits
-
-Write bash functions marco and polo that do the following. Whenever you execute marco the current working directory should be saved in some manner, then when you execute polo, no matter what directory you are in, polo should cd you back to the directory where you executed marco. For ease of debugging you can write the code in a file marco.sh and (re)load the definitions to your shell by executing source marco.sh.
-Exercise from https://missing.csail.mit.edu/2020/shell-tools/
 
 Debugging shell scripts w/ error messages or https://www.shellcheck.net/#
 
@@ -36,17 +44,11 @@ Create new user on system, create key pair for that user.  Use `sftp` to get the
 
 vim tutor
 add customization to .vimrc (plugin, coloring, something)
-regex tutorial - https://regexone.com/
-Find stuff using /usr/share/dict/words
 Different outputs in sed, pros and cons (in-place vs copy) - sed s/REGEX/SUBSTITUTION/ input.txt > input.txt why?
 
 Late git:
 Complete assigned sections of https://learngitbranching.js.org/
 Fork and find a mistake / update / add another resource and create a pull request to course repo
-
-Makefiles:
-add git hooks so code must compile before a commit
-Phony targets to avoid same names as targets? https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html
 
 Processes:
 Use journalctl on Linux or log show on macOS to get the super user accesses and commands in the last day. If there aren’t any you can execute some harmless commands such as sudo ls and check again.
@@ -62,5 +64,3 @@ Download file with `wget`.  Convert to different file type.  Use `basename` to k
 
 Sign a git commit
 Encrypt and decrypt a file
-
-(https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=CEG-2350&templateURL=https:%2F%2Fwsu-cecs-cf-templates.s3.us-east-2.amazonaws.com%2Fceg2350.yml)  

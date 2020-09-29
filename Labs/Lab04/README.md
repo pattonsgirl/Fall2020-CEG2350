@@ -37,7 +37,9 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 4. Add the folder these scripts are located in to your `PATH`.  (2 pts)
 * First use the `export` command in you terminal to test you have properly added to the `PATH`. Write this command in your lab notes. 
 * Test that `marco` and `polo` can now be run in any directory.  
-* Add your working `export` command to your home directory's `.profile`.
+* Add your working `export` command to your home directory's `.profile`.  
+**Resources**
+* [Using Command Output](https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-bash-assign-variable-command-output/)
 
 ## Part 3: The Git Part (1 pt)
 1. Create a `README.md` in your `Lab04` folder that provides a usage guide for `marco` and `polo`.  Copy the contents of you `README.md` into your lab notes.
@@ -45,6 +47,21 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Extra Credit (1 pt): 
 For the `marco` script, when `marco` is run it should check if a path has already been "saved" and ask if the user would like to update the path.  Copy your extra credit `marco` script into your lab notes.
+* [Hint](https://www.cyberciti.biz/faq/linux-unix-script-check-if-file-empty-or-not/)
+
+## Additional Hints 
+Provided in email 9/25
+#### Part 1:
+* Install the wamerican package on your AWS system.
+* Make sure to use the -E flag with grep to get full access to regular expressions.
+
+#### Part 2:
+* When adding your script directory to PATH, make sure to use the absolute path to the directory.  PATH will not search subdirectories.
+* For marco / polo, in lecture, we talked about the merits of saving the current path to a file versus a variable.  If you go the file route, make sure both marco and polo use an absolute path to where the path stored by marco exists
+* Assuming your polo is using cd (there are other ways, but this is most common), here are two hints:
+    * Input redirection with cd won't work.  cd needs a path.  You'll need to play with using the result of one command and sending it to another. Not quite redirection in the sense we've been talking about. Think more PEMDAS or order of operations So if you know you'll need cd to change directory AND you know there are commands to read files, you could go for something like this in polo: cd $(file_read_command /path/to/filename_to_read) This would chain reading the contents of the file into cd https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-bash-assign-variable-command-output/
+
+    * If you run just polo, it won't do anything in your shell. You script is successfully doing stuff, you just can't see it. So we have to change how we run it. For the file method, polo will need to be run with . polo to have cd work in our shell When we run a script, what's really happening is the stuff in your script is running in it's own shell So for polo, your cd is working - in a shell you have no access to When we put the dot in front, we are basically dragging / syncing up with our shell Useful resource: https://linuxize.com/post/bash-source-command/
 
 ### Credits:  
 Exercise based on https://missing.csail.mit.edu/2020/shell-tools/
