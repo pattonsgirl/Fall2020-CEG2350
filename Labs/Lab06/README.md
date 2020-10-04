@@ -52,7 +52,7 @@ Use your AWS / Ubuntu system to discover the following information.
    - BIOS version
    - CPU brand and info
    - Memory size
-5. Virtual memory. Does this system have a swap file? Write how you checked.
+5. Does this system have a swap file (use virtual memory)? Write how you checked.
    - [Hint](https://unix.stackexchange.com/questions/23072/how-can-i-check-if-swap-is-active-from-the-command-line)
 
 ## Part 2: Password Free Git
