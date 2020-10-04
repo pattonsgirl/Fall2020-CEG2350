@@ -24,7 +24,7 @@ Find out the following information about your personal system. Write the answers
 
 - You can use the manufactuers website / manuals
 - Windows users, I recommend `msinfo`
-- You should need to install _no_ additional programs to find this information. If someone tells you to install something, run away.
+- You should _not_ need to install additional programs to find this information. If someone tells you to install something, run away.
 
 1. BIOS version / mode.
 2. CPU brand and info.
@@ -55,11 +55,16 @@ Use your AWS / Ubuntu system to discover the following information.
 5. Does this system have a swap file (use virtual memory)? Write how you checked.
    - [Hint](https://unix.stackexchange.com/questions/23072/how-can-i-check-if-swap-is-active-from-the-command-line)
 
-## Part 2: Password Free Git
+## Part 3: Password Free Git
 
-As promised, you are now required to set up passwordless connection to GitHub (so you'll be authenticating via SSH)
+As promised, you are now required to set up passwordless connection to GitHub (so you'll be authenticating your connection via SSH) from your AWS Ubuntu system. If you already did this due to an earlier in-lecture recommentation, document your steps. A `grep` on `history` may help jog the memory.
 
-## Part 4: The Git Part (1 pt)
+1. [Create a key pair, upload public key (.\*\.pub) to github](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+2. [Change your repo to authenticate with SSH (not HTTPS)](https://help.github.jp/enterprise/2.11/user/articles/changing-a-remote-s-url/)
+3. [If you have errors, poke around here](https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey)
+4. Create a folder in your repository called `Lab06` with a `README.md` file. The file can contain your lab notes, or just a simple sentence ("This was pushed with no password!").
+5. Use `git` commands to `add`, `commit` and `push` the `Lab05` folder to GitHub. Write the commands you used in your lab notes.
 
-1. Create a `README.md` in your `Lab05` folder that details how to run your program manually & how to run your program with the `make` command. Paste the contents of your `README.md` into your lab write up.
-2. Use `git` commands to `add`, `commit` and `push` the `Lab05` folder to GitHub. Write the commands you used in your lab notes.
+## Submission
+
+Upload your file named `Lab06-LastName.txt` to the Pilot Dropbox.
