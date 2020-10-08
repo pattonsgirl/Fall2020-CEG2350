@@ -32,7 +32,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 5. [Mount partition]
 6. [Add partition to /etc/fstab]
 
-Scripting: ideas:
+Scripting:
 Find out what shell we are using in AWS. Hint, read `/etc/passwd` (1 pt) \* A guide on what is in [/etc/passwd](http://www.linfo.org/etc_passwd.html)
 
 Debugging shell scripts w/ error messages or https://www.shellcheck.net/#
@@ -46,14 +46,11 @@ Different outputs in sed, pros and cons (in-place vs copy) - sed s/REGEX/SUBSTIT
 
 Late git:
 Complete assigned sections of https://learngitbranching.js.org/
-Fork and find a mistake / update / add another resource and create a pull request to course repo
-
-Processes:
-Use journalctl on Linux or log show on macOS to get the super user accesses and commands in the last day. If there aren’t any you can execute some harmless commands such as sudo ls and check again.
-
-A common issue is that a port you want to listen on is already taken by another process. Let’s learn how to discover that process pid. First execute python -m http.server 4444 to start a minimal web server listening on port 4444. On a separate terminal run lsof | grep LISTEN to print all listening processes and ports. Find that process pid and terminate it by running kill <PID>.
+Fork and find a mistake / update / add another resource and create a pull request to course repo.
 
 Networking:
+A common issue is that a port you want to listen on is already taken by another process. Let’s learn how to discover that process pid. First execute python -m http.server 4444 to start a minimal web server listening on port 4444. On a separate terminal run lsof | grep LISTEN to print all listening processes and ports. Find that process pid and terminate it by running kill <PID>.
+
 Find an online data set like this one, this one. or maybe one from here. Fetch it using curl and extract out just two columns of numerical data. If you’re fetching HTML data, pup might be helpful. For JSON data, try jq. Find the min and max of one column in a single command, and the sum of the difference between the two columns in another.
 Difference between ifconfig and result of curl ipinfo.io
 
