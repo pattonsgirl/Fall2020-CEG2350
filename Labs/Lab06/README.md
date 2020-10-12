@@ -63,7 +63,7 @@ As promised, you are now required to set up passwordless connection to GitHub (s
 2. [Change your repo to authenticate with SSH (not HTTPS)](https://help.github.jp/enterprise/2.11/user/articles/changing-a-remote-s-url/)
 3. [If you have errors, poke around here](https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey)
 4. Create a folder in your repository called `Lab06` with a `README.md` file. The file can contain your lab notes, or just a simple sentence ("This was pushed with no password!").
-5. Use `git` commands to `add`, `commit` and `push` the `Lab05` folder to GitHub. Write the commands you used in your lab notes.
+5. Use `git` commands to `add`, `commit` and `push` the `Lab06` folder to GitHub. Write the commands you used in your lab notes.
 
 ## Submission
 
