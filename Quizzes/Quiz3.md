@@ -15,7 +15,7 @@ Boo
 Boooooooo
 ```
 
-- o+
+- o+ OR \[o\]
 
 3. Write bash function called foo that prints "Bubbles" to a file called joy.txt
 

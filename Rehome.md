@@ -39,7 +39,6 @@ Find out what shell we are using in AWS. Hint, read `/etc/passwd` (1 pt) \* A gu
 
 Debugging shell scripts w/ error messages or https://www.shellcheck.net/#
 
-my edits and stuff
 systems administration:
 Create new user on system, create key pair for that user. Use `sftp` to get the private key, log in as the new user just using ssh (no -i flag)
 
