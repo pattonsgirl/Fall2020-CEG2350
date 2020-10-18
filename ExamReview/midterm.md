@@ -25,7 +25,7 @@
 ## Scripting
 
 1. Aliases & customizations (.bashrc, ~~.vimrc~~)
-2. Commands: grep, diff, find, file, wc, sort, uniq, whereis, which
+2. Commands: grep, diff, find, file, ~~wc~~, sort, ~~uniq~~, whereis, which
 3. IO redirection (<, >, |, tee)
 4. PATH (order of execution)
 5. Scripting languages: bash, python
