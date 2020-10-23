@@ -22,6 +22,13 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 Use journalctl on Linux or log show on macOS to get the super user accesses and commands in the last day. If there aren’t any you can execute some harmless commands such as sudo ls and check again.
 
+## Part 2: To Infinity
+
+Create a script that runs an infinite loop.
+Outputs a message
+Sets a 5 second sleep delay
+Repeat
+
 ## Submission
 
 Upload your file named `Lab07-LastName.txt` to the Pilot Dropbox.
