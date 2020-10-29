@@ -29,6 +29,12 @@ Outputs a message
 Sets a 5 second sleep delay
 Repeat
 
+Run process in terminal, kill it
+
+Send to background, move to foreground
+
+Use in screen or nohup
+
 ## Submission
 
 Upload your file named `Lab07-LastName.txt` to the Pilot Dropbox.
