@@ -26,6 +26,10 @@ Create a process that output / echos message over a port
 
 Zip two labs, use sftp to transfer to local system.
 
+## Part 3: Conflict Managment
+
+1. Switch to the `development` branch
+
 ## Part 2: [/insert AOL noises here/](https://www.youtube.com/watch?v=D1UY7eDRXrs) (3pts)
 
 For your local system, identify the following information regarding your network connection:

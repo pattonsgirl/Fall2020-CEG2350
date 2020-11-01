@@ -39,9 +39,12 @@ Find out what shell we are using in AWS. Hint, read `/etc/passwd` (1 pt) \* A gu
 
 Debugging shell scripts w/ error messages or https://www.shellcheck.net/#
 
+Program that outputs file permissions
+
 systems administration:
 Create new user on system, create key pair for that user. Use `sftp` to get the private key, log in as the new user just using ssh (no -i flag)
 Get the `md5sum` of both your local file and the file now copied to AWS. Make a change to the contents of one or the other, and check the `md5sum` of both again. Are the `md5sum`s of both files still the same? Why or why not?
+Use journalctl on Linux or log show on macOS to get the super user accesses and commands in the last day. If there aren’t any you can execute some harmless commands such as sudo ls and check again.
 
 vim tutor
 add customization to .vimrc (plugin, coloring, something)
