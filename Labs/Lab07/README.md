@@ -36,10 +36,9 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 ## Part 2: Terminally Attached (5 pts)
 
 1. Connect to your AWS system in two different terminals. Note the PID of the terminal you will monitor processes on and the PID of the terminal you will expirement with running your script. (1 pt)
-2. Note the PID of the terminal you are going to write the following commands in. (1 pt)
-3. Run the script you created in your terminal. Note the PID. Craft a command to kill the process. (1 pt)
-4. Run your script with `source`. Note the PID. What is interesting about the PID? How can you kill the process? (1 pt)
-5. Run the script in the background. Note the PID. Craft a command to kill the background process. (1 pt)
+2. Run the script you created in your terminal. Note the PID. Craft a command to kill the process. (1 pt)
+3. Run your script with `source`. Note the PID. What is interesting about the PID? How can you kill the process? (1 pt)
+4. Run the script in the background. Note the PID. Craft a command to kill the background process. (2 pt)
 
 **Resources**
 
