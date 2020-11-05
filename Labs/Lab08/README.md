@@ -22,9 +22,7 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 Create a process that output / echos message over a port
 
-## Part 2: Getting Zippy
-
-Zip two labs, use sftp to transfer to local system.
+## Part 3: SSH Keys
 
 ## Part 3: Conflict Managment
 
@@ -47,6 +45,10 @@ For your local system, identify the following information regarding your network
 
 Difference between ifconfig and result of curl ipinfo.io
 A common issue is that a port you want to listen on is already taken by another process. Let’s learn how to discover that process pid. First execute python -m http.server 4444 to start a minimal web server listening on port 4444. On a separate terminal run lsof | grep LISTEN to print all listening processes and ports. Find that process pid and terminate it by running kill <PID>.
+
+- install python-pip
+- pip install http
+- works with python3
 
 ## Submission
 
