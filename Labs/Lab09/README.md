@@ -18,13 +18,31 @@ Email: Your email
 If you've lost or forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
-## Part 2: Makey Makey
+## Part 1: Makey Makey
 
 Compile a program from source
 
-## Part 2: Getting Zippy
+## Part 2: SSH
+
+1. On your local machine, use one of the SSH clients you have installed:
+
+- WSL 2
+- MobaXterm + cygutils
+
+2. Configure /etc/hosts
+3. Configure ~/.ssh/config
+4. In your client of choice, create a new key pair
+   - Note: use the defaults (ie. ~/.ssh/id_rsa)
+5. Copy your public key into the `authorized_keys` file on your AWS system.
+6. SSH from your local machine to the AWS machine
+
+## Part 3: Getting Zippy
 
 Zip two labs, use sftp to transfer to local system.
+
+## Part 4: Conflict Managment
+
+1. Switch to the `development` branch
 
 ## Submission
 

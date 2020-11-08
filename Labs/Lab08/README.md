@@ -18,38 +18,64 @@ Email: Your email
 If you've lost or forgotten your key, you'll need to provision a new stack in AWS Educate and create a new key.  
 See [Remaking your AWS Educate environment](../../..) for instructions.
 
-## Part 1: Good listening
+## Part 1: [/insert AOL noises here/](https://www.youtube.com/watch?v=D1UY7eDRXrs) (3pts)
 
-Create a process that output / echos message over a port
-
-## Part 3: SSH Keys
-
-## Part 3: Conflict Managment
-
-1. Switch to the `development` branch
-
-## Part 2: [/insert AOL noises here/](https://www.youtube.com/watch?v=D1UY7eDRXrs) (3pts)
-
-For your local system, identify the following information regarding your network connection:
+For your local / personal system, identify the following information regarding your network connection:
 
 1. Network interface
 2. MAC address
 3. IP Address
 4. Subnet mask
-5. Gateway  
-   Q. According to the settings above and some defaults discussed in class, are you on a private network? Based on that answer, how do you communicate to the "world" (google.com, wright.edu, etc.)?
-6. Type `host` followed by the URL of your favorite website.  
-   Q. Copy the command and its results into your lab write up. What can you infer? Do the reverse, `host` followed by the IP address given by the results. Is your favorite website likely hosted on a single system, or is a single system likely serving multiple websites?
+5. Gateway
+6. Is your IP address public or private?
 
-## Part ?:
+On your AWS system, use `ifconfig` and `curl ipinfo.io` and read `/etc/hostname` to fill out the following:
 
-Difference between ifconfig and result of curl ipinfo.io
-A common issue is that a port you want to listen on is already taken by another process. Let’s learn how to discover that process pid. First execute python -m http.server 4444 to start a minimal web server listening on port 4444. On a separate terminal run lsof | grep LISTEN to print all listening processes and ports. Find that process pid and terminate it by running kill <PID>.
+7. AWS system private IP address:
+8. AWS system private hostname:
+9. AWS system public IP address:
+10. AWS system public hostname:
+11. Which of these IP addresses do you use to access your AWS system?
 
-- install python-pip
-- pip install http
-- works with python3
+## Part 2: Snakes and Browsers
+
+1. Install the `jupyter` package.
+
+2. On your AWS system, start a `jupyter notebook` with the no browser option. Copy the output into your lab notes.
+
+   - Note: use `jupyter notebook --help`
+
+3. Open a second terminal on your local system (do not `ssh` into the AWS system). Forward the port running `jupyter notebook` to your local system and open the notebook in your browser by following the steps below:
+   - Use `ssh` to forward the port as follows:
+   - `ssh -N -f -i your_private_key -L localhost:8888:localhost:8888 ubuntu@your_elastic_ip`
+   - In your browser, type the following URL: `localhost:8888`
+4. Answer the following:
+   - What flags are in the `ssh` command in Step 3, and what do they do?
+   - What files are displayed in the browser?
+
+## Part 3:
+
+A common issue is that a port you want to listen on is already taken by another process. Let’s learn how to discover that process pid.
+
+1. Install the `http` package for python using `pip`
+
+- Write the command to install `pip` for `python`
+- Write the command to install `http` with `pip`
+
+2. In one terminal, execute `python3 -m http.server 4444` to start a minimal web server listening on port 4444.
+
+3. On a separate terminal run `lsof | grep LISTEN` to print all listening processes and ports.
+
+4. Find that process pid and terminate it by running `kill <PID>`.
+
+## Extra Credit: Good listening
+
+Echo a message over a port. When a connection is made on `localhost` or using the public IP, the message should print until the connection is terminated.
 
 ## Submission
 
 Upload your file named `Lab08-LastName.txt` to the Pilot Dropbox.
+
+### Credits:
+
+Exercise based on https://missing.csail.mit.edu/2020/debugging-profiling/
