@@ -55,6 +55,11 @@ On your AWS system, use `ifconfig` and `curl ipinfo.io` and read `/etc/hostname`
    - What flags are in the `ssh` command in Step 3, and what do they do?
    - What files are displayed in the browser (what system are they from)?
 
+**Resources**
+
+- [Running a Jupyter Notebook](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/)
+- [Jupyter Notebook Tutorial - Go to Creating Your First Notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+
 ## Part 3: Get Off my Port (3 pts)
 
 A common issue is that a port you want to listen on is already taken by another process. Let’s learn how to discover that process pid.
