@@ -55,20 +55,28 @@ On your AWS system, use `ifconfig` and `curl ipinfo.io` and read `/etc/hostname`
    - What flags are in the `ssh` command in Step 3, and what do they do?
    - What files are displayed in the browser (what system are they from)?
 
-## Part 3: Get Off my Port (4 pts)
+## Part 3: Get Off my Port (3 pts)
 
 A common issue is that a port you want to listen on is already taken by another process. Let’s learn how to discover that process pid.
 
 1. Install the `http` package for python using `pip` (1 pt)
 
-- Write the command to install `pip` for `python`
-- Write the command to install `http` with `pip`
+   - Write the command to install `pip` for `python`
+   - Write the command to install `http` with `pip`
 
-2. In one terminal, execute `python3 -m http.server 4444` to start a minimal web server listening on port 4444. Would the `http` work with just `python`? (1 pt)
+2. In one terminal, execute `python3 -m http.server 4444` to start a minimal web server listening on port 4444.
 
-3. On a separate terminal run `lsof | grep LISTEN` to print all listening processes and ports. Copy the output to your notes. (1 pt)
+3. Craft a command that uses `lsof` to show only the LISTEN[ing] ports on the system. Write the command in your notes and paste the output of running the command. (1 pt)
+
+   - Useful commands: `lsof`, `|`, `grep`
 
 4. Find that process pid and terminate it by running `kill <PID>`. Note the command in your notes(1 pt)
+
+## Part 4: The Git Part (1 pt)
+
+1. Create a folder in your repository called `Lab08`. Create a file called `README.md`. Copy and paste your lab notes into the file. `add`, `commit` and `push` your file to remote.
+
+2. What branch are you on? (1 pt)
 
 ## Extra Credit: Good listening (2 pts)
 
