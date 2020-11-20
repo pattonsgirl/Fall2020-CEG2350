@@ -2,7 +2,7 @@
 
 ## Lab Procedure
 
-Document your progress in a plain text file named `Lab08-LastName.txt`  
+Document your progress in a plain text file named `Lab09-LastName.txt`  
 where LastName is your last name
 
 At the top of the file please enter your personal details as follows:
@@ -10,7 +10,6 @@ At the top of the file please enter your personal details as follows:
 ```
 Name: Your name
 Email: Your email
-
 ```
 
 **Where questions are presented, answer them in your lab notes. For each step, include the command you used to perform the direction or answer the question posed.** If you did something "wrong" make a note of it in your lab. These are learning experiences.
@@ -20,7 +19,15 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Part 1: Makey Makey
 
+Install a terminal game from source.  
+Note: You may **not** use the package manager (`apt`).
+Pick one of:
+
+- [Packman4Console](https://github.com/YoctoForBeaglebone/pacman4console)
+
 Compile a program from source
+md5sum of your copy
+md5sum from website
 
 ## Part 2: SSH
 

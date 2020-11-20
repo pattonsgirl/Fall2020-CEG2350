@@ -1,5 +1,3 @@
-Hello!
-
 1. Run `sudo apt update` - in your lab notes, explain what update does
 2. Run `sudo apt upgrade` - in your lab notes, explain what upgrade does
 3. Run `sudo apt autoremove` - in your lab notes, explain what autoremove does  
@@ -56,6 +54,8 @@ Fork and find a mistake / update / add another resource and create a pull reques
 
 Networking:
 Find an online data set like this one, this one. or maybe one from here. Fetch it using curl and extract out just two columns of numerical data. If you’re fetching HTML data, pup might be helpful. For JSON data, try jq. Find the min and max of one column in a single command, and the sum of the difference between the two columns in another.
+
+Wireshark lab?
 
 Download file with `wget`. Convert to different file type. Use `basename` to keep name but change extension
 
