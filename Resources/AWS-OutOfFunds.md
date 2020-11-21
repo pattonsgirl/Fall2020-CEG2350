@@ -6,18 +6,18 @@
 - [Sign in to AWS educate](https://www.awseducate.com/signin/SiteLogin)
 
 1. Sample out of funds email.  Click on link in email.  
-![No Funds Email](images/nofundsemail.png)
+![No Funds Email](images/nofundsemail.PNG)
 2. Select **I don't have an AWS account**  
-![No AWS Account](images/step1.png)
+![No AWS Account](images/step1.PNG)
 3. Fill out the form.  A sample is below:  
-![AWS form sample](images/AWSEducateEmailForm.png)
+![AWS form sample](images/AWSEducateEmailForm.PNG)
 4. Log back into your AWS Educate account.  A prompt should show up such as this:  
     - NOTE: This could take a while, check back now and then.  
-![Prompt](images/Step3.png)
+![Prompt](images/Step3.PNG)
 4. A prompt will show up, click "Okay":  
-![Scary Message, Click Okay](images/step4.png)
+![Scary Message, Click Okay](images/step4.PNG)
 5. You will get an email that your account has been reinstated:  
-![Success Email](images/step5-success.png)
+![Success Email](images/step5-success.PNG)
 6. Enable your instance again:
     - Log out and back in to your AWS educate account
     - Go to the Serves dropdown and select "EC2" under "Compute"
