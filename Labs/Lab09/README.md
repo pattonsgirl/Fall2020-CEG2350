@@ -19,15 +19,22 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Part 1: Makey Makey
 
-Install a terminal game from source.  
+Needing to install a package from source is not an uncommon request. You are going to install an OwnCloud server on your AWS Educate instance. OwnCloud is essentially an open source version of DropBox or Office365.  
 Note: You may **not** use the package manager (`apt`).
-Pick one of:
 
-- [Packman4Console](https://github.com/YoctoForBeaglebone/pacman4console)
-
-Compile a program from source
-md5sum of your copy
-md5sum from website
+1. Download the APR
+2. Unpack the installation files
+   - Useful commands: `gzip`, `tar`
+   - Note: you will need flags for the above commands
+3. Look in the unpacked directory. Is there a `Makefile`? Run the `configure` script. Is there a `Makefile` now?
+4. Use the `Makefile`.
+5. Download the apache HTTP server installation files
+   - Useful commands: `wget`
+6. Check the signature on your downloaded file and compare it to the official signature from the site.
+7. Unpack the installation files
+   - Useful commands: `gzip`, `tar`
+   - Note: you will need flags for the above commands
+8. Go into the directory.
 
 ## Part 2: SSH
 
