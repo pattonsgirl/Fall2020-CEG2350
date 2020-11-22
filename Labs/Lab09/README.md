@@ -19,8 +19,18 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Part 1: Makey Makey
 
-Needing to install a package from source is not an uncommon request. You are going to install an OwnCloud server on your AWS Educate instance. OwnCloud is essentially an open source version of DropBox or Office365.  
+Needing to install a package from source is not an uncommon request. For fun, you will be installing a terminal based game.
 Note: You may **not** use the package manager (`apt`).
+
+Install a terminal game from source.  
+Note: You may **not** use the package manager (`apt`).
+Pick one of:
+
+- [Packman4Console](https://github.com/YoctoForBeaglebone/pacman4console)
+
+Compile a program from source
+md5sum of your copy
+md5sum from website
 
 1. Download the APR
 2. Unpack the installation files
