@@ -68,6 +68,11 @@ Zip two labs, use sftp to transfer to local system.
 
 1. Switch to the `development` branch
 
+## Extra Credit: G@M3R
+
+Install ninvader from the package above. For credit, you need to list how you installed ninvaders succesfully. Since it is a text based C language game, you will need an additional library in C, called `ncurses`.  
+Note: You may use the package manager (`apt`) to install the ncurses library, but you may **not** use the package manager (`apt`) to install ninvaders.
+
 ## Submission
 
 Upload your file named `Lab09-LastName.txt` to the Pilot Dropbox.
