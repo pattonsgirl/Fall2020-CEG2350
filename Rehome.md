@@ -61,3 +61,10 @@ Download file with `wget`. Convert to different file type. Use `basename` to kee
 
 Sign a git commit
 Encrypt and decrypt a file
+
+5. Configure /etc/hosts
+6. Configure ~/.ssh/config
+7. In your client of choice, create a new key pair
+   - Note: use the defaults (ie. ~/.ssh/id_rsa)
+8. Copy your public key into the `authorized_keys` file on your AWS system.
+9. SSH from your local machine to the AWS machine

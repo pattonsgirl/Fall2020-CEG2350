@@ -19,18 +19,8 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Part 1: Makey Makey
 
-Needing to install a package from source is not an uncommon request. For fun, you will be installing a terminal based game.
+Needing to install a package from source is not an uncommon request. You will be installing Wireshark from source on your AWS Educate Instance.
 Note: You may **not** use the package manager (`apt`).
-
-Install a terminal game from source.  
-Note: You may **not** use the package manager (`apt`).
-Pick one of:
-
-- [Packman4Console](https://github.com/YoctoForBeaglebone/pacman4console)
-
-Compile a program from source
-md5sum of your copy
-md5sum from website
 
 1. Download the APR
 2. Unpack the installation files
@@ -48,25 +38,20 @@ md5sum from website
 
 ## Part 2: SSH
 
-1. On your local machine, use one of the SSH clients you have installed:
+In a previous lab, you made a key pair on your AWS system and used it to create a passwordless authentication with GitHub. You have also created an ssh alias so that you can use a shortcut command instead of typing out your ssh connection everytime. Now you are going to create an ssh key on your local system, and use this new key to get into your AWS system.
 
-- WSL 2
-- MobaXterm + cygutils
-
-2. Configure /etc/hosts
-3. Configure ~/.ssh/config
-4. In your client of choice, create a new key pair
-   - Note: use the defaults (ie. ~/.ssh/id_rsa)
-5. Copy your public key into the `authorized_keys` file on your AWS system.
-6. SSH from your local machine to the AWS machine
+1. On your local machine, identify what method you have been using to ssh in to your AWS system. This is your client. Consistentcy will be important here, especially for Windows users. Are you using Moba + Cygutils? WSL2? For Mac / Linux users, have you been using a local terminal?
+2. Create a new ssh key on the client. Use the default directory / names. Do not enter a passphrase when prompted (just hit `Enter` to skip it). Write the command you used.
+3. Copy the contents of the public key file to `/home/ubuntu/authorized_keys` on your AWS Educate instance. Write your process.
+4. Log out, and `ssh` to your AWS educate system with your private key (not the private key you got from AWS). Write the command you used.
 
 ## Part 3: Getting Zippy
 
 Zip two labs, use sftp to transfer to local system.
 
-## Part 4: Conflict Managment
+## Part 5: The Git Part (1 pt)
 
-1. Switch to the `development` branch
+1. Create a folder in your repository called `Lab09`. Create a file called `README.md`. Copy and paste your lab notes into the file. `add`, `commit` and `push` your file to remote.
 
 ## Extra Credit: G@M3R
 
