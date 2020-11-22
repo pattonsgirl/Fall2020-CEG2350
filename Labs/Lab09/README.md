@@ -47,7 +47,15 @@ In a previous lab, you made a key pair on your AWS system and used it to create 
 
 ## Part 3: Getting Zippy
 
-Zip two labs, use sftp to transfer to local system.
+1. Use `tar` to create a tar ball of your AWS home directory.
+2. How large is the tarred file?
+3. Use `gzip` (or a similar tool) to compress the file. How big is it now?
+4. What is the `md5sum` of this file?
+5. `exit` from your `ssh` connection with the AWS instance or open a new terminal. Use an `sftp` connection to your AWS educate instance to **download** the compressed home directory to your local system. Write the command(s) you used.
+6. What is the `md5sum` of the file you downloaded?
+7. Uncompress the file on your local system. Write the commands you used.
+8. Do `git` commands still work in the folder you extracted? Write down your findings.
+   - Hint: think back to ssh keys
 
 ## Part 5: The Git Part (1 pt)
 
