@@ -27,6 +27,7 @@ Note: Yes, this may already be installed. Don't worry about it.
    - Useful commands: `wget`
 2. Download the GPG key that corresponds with your file.
 3. Use `gpg` to verify your downloaded file. Write the command you used.
+   - [Useful resource](https://gnupg.org/download/integrity_check.html)
    - Note: The results may be ... inconsistent. In this instance, don't worry about it, but do try to understand what is happening.
 4. Unpack the installation files
    - Useful commands: `xz`, `tar`
