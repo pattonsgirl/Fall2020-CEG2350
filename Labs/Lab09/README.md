@@ -19,22 +19,23 @@ See [Remaking your AWS Educate environment](../../..) for instructions.
 
 ## Part 1: Makey Makey
 
-Needing to install a package from source is not an uncommon request. You will be installing Wireshark from source on your AWS Educate Instance.
-Note: You may **not** use the package manager (`apt`).
+Needing to install a package from source is not an uncommon request. You will be installing `curl` manually from source on your AWS Educate Instance.  
+Note: You may **not** use the package manager (`apt`).  
+Note: Yes, this may already be installed. Don't worry about it.
 
-1. Download the APR
-2. Unpack the installation files
-   - Useful commands: `gzip`, `tar`
-   - Note: you will need flags for the above commands
-3. Look in the unpacked directory. Is there a `Makefile`? Run the `configure` script. Is there a `Makefile` now?
-4. Use the `Makefile`.
-5. Download the apache HTTP server installation files
+1. Download the `curl` [source package](https://curl.haxx.se/download.html)
    - Useful commands: `wget`
-6. Check the signature on your downloaded file and compare it to the official signature from the site.
-7. Unpack the installation files
-   - Useful commands: `gzip`, `tar`
+2. Download the GPG key that corresponds with your file.
+3. Use `gpg` to verify your downloaded file. Write the command you used.
+   - Note: The results may be ... inconsistent. In this instance, don't worry about it, but do try to understand what is happening.
+4. Unpack the installation files
+   - Useful commands: `xz`, `tar`
    - Note: you will need flags for the above commands
-8. Go into the directory.
+5. Look in the unpacked directory. One of the files is named `configure`. Run it.
+6. Look in the directory again. What file appeared? Run it.
+   - Hint: Pairs with `make`
+7. Now run `make install`
+8. `curl` should now be installed. Check the version number to verify the version you installed matches the version number you downloaded.
 
 ## Part 2: SSH
 
