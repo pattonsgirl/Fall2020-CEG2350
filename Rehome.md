@@ -70,3 +70,9 @@ Encrypt and decrypt a file
 9. SSH from your local machine to the AWS machine
 
 c:\Windows\System32\Drivers\etc\hosts
+
+Use your AWS portal, or just use Google.
+
+Find something that people are using AWS for that you would be curious about investigating. Try to describe a project idea that comes to mind.
+
+Note: this is for fun. Have some fun! Personally, I want to play with the AWS Deep Racer
