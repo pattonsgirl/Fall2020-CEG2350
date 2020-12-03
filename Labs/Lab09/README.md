@@ -59,7 +59,7 @@ In a previous lab, you made a key pair on your AWS system and used it to create 
 8. Do `git` commands still work in the folder you extracted? Write down your findings.
    - Hint: think back to ssh keys
 
-## Part 5: The Git Part (1 pt)
+## Part 4: The Git Part (1 pt)
 
 1. Create a folder in your repository called `Lab09`. Create a file called `README.md`. Copy and paste your lab notes into the file. `add`, `commit` and `push` your file to remote.
 
