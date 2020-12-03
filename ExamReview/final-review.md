@@ -4,8 +4,8 @@
 2. init process / kernel level vs user level processes
    a. parent vs child process
 3. System calls (way for programs / APIs to interact with the operating system)
-   a. systemd - systemctl & journalctl
-   b. Fork & exec
+   - systemd - systemctl & journalctl
+   - Fork & exec
 4. Commands: kill, ps, top, nice, bg, fg, jobs, nohup, ~~killall~~, screen
 5. Preemptive (interruptible) and non-preemptive scheduling, priorities, signals
 6. CPU & kernel memory management
@@ -24,11 +24,11 @@
 2. Protocols: HTTP vs HTTPS
 3. TCP and UDP
 4. Ports vs sockets, clients and servers, secure shell, sftp
-   • Application opens a socket which is connected to a port
+   - Application opens a socket which is connected to a port
 5. X11 in terms of graphical “forwarding” and role of a GUI
 6. Web browsers (URLs, SSL certs) and clients (ping, wget, traceroute)
 7. Physical pieces of a network
-   • hosts, routers, switches, ISPs, wireless, LAN
+   - hosts, routers, switches, ISPs, wireless, LAN
 8. Firewalls
 9. OSI layers (encapsulation / packets, application, transport, network, datalink, physical)
 
@@ -47,6 +47,11 @@
 ## Computer-ception
 
 1. Virtual machines (GUI style) and hypervisors
+   - set up with an amount of RAM it can take up
+   - full installation, including kernel - runs within hypervisor
+   - hypervisor manages resources to share with host system
 2. Containers
-3. Cloud computing (Google, AWS, Azure) & basic terminology
-   • Storage buckets, cloud networking, heavy computation
+   - relies on host kernel
+   - environment in which you can install tools / packages / etc without changing host configuration
+3. Cloud computing (Google, AWS, Azure)
+   - Idea of "coding" infrastructure via configuration files
