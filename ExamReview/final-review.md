@@ -21,36 +21,45 @@
    - pull
    - commit
    - add
-   - init
    - clone
    - **branching**
-     - creating
+     - creating (-b or branch)
+     - switching (checkout)
      - merging
 
 ## Networking
 
-1. Host names, IP addresses, Subnets, DNS, URLs
-2. Protocols: HTTP vs HTTPS
-3. TCP and UDP
-4. Ports vs sockets, clients and servers, secure shell, sftp
+1. IP v4 addresses & CIDR notation
+2. Host names, DNS, URLs
+3. Protocols: HTTP (80) vs HTTPS (443)
+4. TCP and UDP
+5. Ports vs sockets, clients and servers, secure shell (22), sftp
    - Application opens a socket which is connected to a port
-5. X11 in terms of graphical “forwarding” and role of a GUI
-6. Web browsers (URLs, SSL certs) and clients (ping, wget, traceroute)
-7. Physical pieces of a network
+6. X11 in terms of graphical “forwarding” and role of a GUI
+7. Web browsers (URLs, SSL certs) and clients (ping, wget, traceroute)
+   - cookies
+8. Physical pieces of a network
    - hosts, routers, switches, ISPs, wireless, LAN
-8. Firewalls
-9. OSI layers (encapsulation / packets, application, transport, network, datalink, physical)
+9. Proxies & VPNs
+   - VPNs provided encypted communication
+   - vs not (proxies)
+10. Caches - locally & via servers that cache info.
+11. Firewalls - chains that restrict traffic
+12. OSI layers (encapsulation / packets, application, transport, network, datalink, physical)
 
 ## System Management
 
 1. Updates (Linux vs. Windows)
 2. Installing packages with make
 3. Virus scanning & types of computer diseases
-4. Creating archives, password locking files
-5. System restore (automatic, manual, backups)
-6. Windows Registry
+4. Creating archives
+5. Verifying files with checksums & keys
+6. System restore (automatic, manual, backups)
 7. Boot scripts & init.d
+   - Windows Registry
+   - cronjobs (Linux)
 8. Open source movement
+   - pros and cons
 9. Torrents
 
 ## Computer-ception
@@ -59,7 +68,8 @@
    - set up with an amount of RAM it can take up
    - full installation, including kernel - runs within hypervisor
    - hypervisor manages resources to share with host system
-2. Containers
+2. Containers (Needs Linux kernel)
+   - runs in combination with normal system
    - relies on host kernel
    - environment in which you can install tools / packages / etc without changing host configuration
 3. Cloud computing (Google, AWS, Azure)

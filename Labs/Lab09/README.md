@@ -44,7 +44,7 @@ In a previous lab, you made a key pair on your AWS system and used it to create 
 
 1. On your local machine, identify what method you have been using to ssh in to your AWS system. This is your client. Consistentcy will be important here, especially for Windows users. Are you using Moba + Cygutils? WSL2? For Mac / Linux users, have you been using a local terminal?
 2. Create a new ssh key on the client. Use the default directory / names. Do not enter a passphrase when prompted (just hit `Enter` to skip it). Write the command you used.
-3. Copy the contents of the public key file to `/home/ubuntu/authorized_keys` on your AWS Educate instance. Write your process.
+3. Copy the contents of the public key file to `/home/ubuntu/.ssh/authorized_keys` on your AWS Educate instance. Write your process.
 4. Log out, and `ssh` to your AWS educate system with your private key (not the private key you got from AWS). Write the command you used.
 
 ## Part 3: Getting Zippy
