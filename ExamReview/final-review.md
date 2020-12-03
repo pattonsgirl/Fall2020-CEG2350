@@ -16,7 +16,16 @@
 ## Git (version control)
 
 1. Git servers vs. clients
-2. Basic commands: push, pull, commit, add, init, clone, **branching**, merge conflicts, ~~, custom configurations~~
+2. Git commands & what they do:
+   - push
+   - pull
+   - commit
+   - add
+   - init
+   - clone
+   - **branching**
+     - creating
+     - merging
 
 ## Networking
 
